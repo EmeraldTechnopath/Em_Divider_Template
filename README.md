@@ -2,7 +2,7 @@ A template I made to make your own dividers for BG3 Mod Manager. The dividers do
 
 What you need: BG3 Modder's Multitool, and a code editor (VS Code or Notepad++)
 
-How to use it: Download the zip. Extract the folder somewhere so you can edit the files. Once you find the parent folder called Em_Divider_Template, copy that folder out to somewhere else. This folder and its contents are all you'll need for the divider.
+How to use it: Click the green Code button and Download ZIP. Extract the folder somewhere so you can edit the files. Once you find the parent folder called Em_Divider_Template, copy that folder out to somewhere else. This folder and its contents are all you'll need for the divider.
 
 Change both folders called Em_Divider_Template to something unique to avoid clashes. (Remember this folder name because you will need it later.)
 
