@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="9" build="328" />
+  <region id="Config">
+    <node id="root">
+      <!-- Hi! I'm leaving comments on all of the lines that need to be changed. If there's no comment, it doesn't need to be edited. When doing the edits, make sure you change the values, not the other parts of the attribute. -->
+      <children>
+        <node id="Dependencies" />
+        <node id="ModuleInfo">
+          <attribute id="Author" type="LSString" value="SampleAuthor" />
+          <!-- ^ Change this value to your username. It will show in BG3MM under Author. -->
+          <attribute id="CharacterCreationLevelName" type="FixedString" value="" />
+          <attribute id="Description" type="LSString" value="A divider template for making your own BG3MM dividers." />
+          <!-- ^ Change this value to a description of the divider. It will show when someone hovers over your divider in BG3MM. -->
+          <attribute id="Folder" type="LSString" value="Em_Divider_Template" />
+          <!-- ^ Change this value to the name of the folder you're using. The original folder is going to be Em_Divider_Template, but you need to change it to something unique to avoid conflicts. You can even make it a UUID if you want. But you need to actually go into File Explorer and change the folder name or it can cause issues. -->
+          <attribute id="GMTemplate" type="FixedString" value="" />
+          <attribute id="LobbyLevelName" type="FixedString" value="" />
+          <attribute id="MD5" type="LSString" value="" />
+          <attribute id="MainMenuBackgroundVideo" type="FixedString" value="" />
+          <attribute id="MenuLevelName" type="FixedString" value="" />
+          <attribute id="Name" type="FixedString" value="== SAMPLE DIVIDER ==" />
+          <!-- ^ Change this value to whatever you want to show up in BG3MM. Call it whatever you want. -->
+          <attribute id="NumPlayers" type="uint8" value="4" />
+          <attribute id="PhotoBooth" type="FixedString" value="" />
+          <attribute id="StartupLevelName" type="FixedString" value="" />
+          <attribute id="Tags" type="LSString" value="" />
+          <attribute id="Type" type="FixedString" value="Add-on" />
+          <attribute id="UUID" type="FixedString" value="11301200-90cf-4b69-adcf-f8080ff2efdc" />
+          <!-- ^ You need to go into the BG3 Modders Multitool and generate a new UUID and paste it here. This will prevent your divider from conflicting with any other mods or dividers. -->
+          <attribute id="Version64" type="int64" value="36028797018963968" />
+          <children>
+            <node id="PublishVersion">
+              <attribute id="Version64" type="int64" value="36028797018963968" />
+            </node>
+            <node id="Scripts" />
+            <node id="TargetModes">
+              <children>
+                <node id="Target">
+                  <attribute id="Object" type="FixedString" value="Story" />
+                </node>
+              </children>
+            </node>
+          </children>
+        </node>
+      </children>
+      <!-- That's all! -->
+    </node>
+  </region>
+</save>
